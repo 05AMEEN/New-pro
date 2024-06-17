@@ -6,7 +6,7 @@ import openai
 from dotenv import load_dotenv
 
 load_dotenv()
-OPENAI_KEY = os.getenv('OPENAI_KEY')
+OPENAI_KEY = os.getenv('sk-proj-HFaHPVr78FexREzp3tr3T3BlbkFJ0PuGWTPOC1n7ndsJmATp')
 openai.api_key = OPENAI_KEY
 
 def speak_text(text):
